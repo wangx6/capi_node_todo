@@ -1,6 +1,6 @@
 function response() {
     function fail(errors) {
-        if(!!Array.isArray(errors)) errors = [errors];
+        if(!Array.isArray(errors)) errors = [errors];
         return {ok: false, errors};
     }
 
