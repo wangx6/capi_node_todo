@@ -10,7 +10,7 @@ require('dotenv').config()
 
 
 const todoService = require('./services/todoService/todo-service')();
-const rs = require('./response')();
+const rs = require('./services/response/response')();
 
 const PORT = process.env.port || 8080;
 
