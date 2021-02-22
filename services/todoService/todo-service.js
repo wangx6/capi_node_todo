@@ -12,9 +12,9 @@ const todoService = () => {
             // calling the bapi
             setTimeout(() => {
                 setData([
-                    {id: Math.random().toString(32), status: 0, description: 'asdfasdf'},
-                    {id: Math.random().toString(32), status: 0, description: 'asdfasdf'},
-                    {id: Math.random().toString(32), status: 0, description: 'asdfasdf'},
+                    {id: Math.random().toString(32), status: 1, todo: 'donate 1 billion'},
+                    {id: Math.random().toString(32), status: 1, todo: 'buy a sport car'},
+                    {id: Math.random().toString(32), status: 0, todo: 'but a house'},
                 ]);
                 resolve(getData());
             }, 500);
