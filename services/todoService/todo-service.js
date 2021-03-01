@@ -24,8 +24,6 @@ const todoService = () => {
             ]
         }
 
-        // resp = { ok: false, errors: [] };
-
         return new Promise((resolve, reject) => {
             // calling the bapi
             if(resp.ok) {
